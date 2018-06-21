@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+* {
+  font-family: "微软雅黑", STHeitiSC-Light;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+button:focus {
+  outline: 0!important;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+  border: none!important;
+}
+
+.is-trans {
+  transition: all .2s ease-in-out;
+  background-color: hsla(0,0%,100%,.1);
+  border-color: transparent;
+  color: #fff;
+}
+.is-trans:hover {
+  background-color: hsla(0,0%,100%,.2);
+  border-color: transparent;
+  color: #fff;
+}
+.is-trans:focus {
+  color: #fff;
+}
+
+.ct-line {
+  width: 100%;
+}
+
+.ct-cb {
+  clear: both;
+}
