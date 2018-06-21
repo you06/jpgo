@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "author": "Matt <you1474600@gmail.com>",
   "description": "A simple tool help learning Japanese",
-  "license": null,
+  "license": "MIT",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
